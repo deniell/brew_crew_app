@@ -29,7 +29,7 @@ class _RegisterState extends State<Register> {
         title: Text('Sign up to Brew Crew'),
         actions: <Widget>[
           FlatButton.icon(
-            icon: Icon(Icons.person_add),
+            icon: Icon(Icons.person),
             label: Text('Sign In'),
             onPressed: () => widget.toggleView(),
           ),
